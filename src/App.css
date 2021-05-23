@@ -1,0 +1,114 @@
+/* variables */
+/* :root{
+  --background-color: #eee;
+  --background-color-2: #181c29;
+  --icon-color: #bbb;
+  --menu-color: #fff;
+  --list-item-margin: 1rem;
+  --menu-background: #0e1017;
+  --menu-inner-background:  #181c29;
+  --menu-list-item-margin: 0.8rem 1rem;
+  --text-color-1: #eee;
+  --text-color-2: #ccc;
+  --overlay-background: rgba(20,20,20,0.8);
+  --buy-btn-background-1: #dd2211;
+  --buy-btn-background-2: #ee1010;
+  --price-color : #65dd67;
+  --h4-color: #eee
+  } */
+
+  *{
+    transition: all 0.1s;
+    
+  }
+.light{
+ --background-color: #eee;
+  --background-color-2: #181c29;
+  --background-color-3 : #181c29;
+  --background-color-4 : #fff;
+  --gradient-background-color : #08002b;
+  --icon-color: #bbb;
+  --menu-color: #fff;
+  --list-item-margin: 1rem;
+  --menu-background: #0e1017;
+  --menu-inner-background:  #181c29;
+  --menu-list-item-margin: 0.8rem 1rem;
+  --text-color-1: #111;
+  --text-color-2: #fff;
+  --text-color-3: #090330;
+  --active-text-color-1: #000;
+  --active-text-color-2: #eee;
+  --button-background: #181c29;
+  --button-background-hover: #ddd;
+  --overlay-background: rgba(20,20,20,0.8);
+  --warning-background: rgba(50,50,50);
+  --purchase-background: rgba(30,30,50);
+  --buy-btn-background-1: #dd2211;
+  --buy-btn-background-2: #ee1010;
+  --price-color : #65dd67;
+  --price-color-2 : #54cc56;
+  --h4-color: #eee;
+  --delete-color: #960f14
+
+}
+.dark{
+  --background-color: #181c29;
+  --background-color-2: #eee;
+  --background-color-3 : #eee;
+  --background-color-4 : #777;
+  --gradient-background-color : #8d7ecf;
+  --icon-color: #444;
+  --menu-color: #000;
+  --list-item-margin: 1rem;
+  --menu-background: #f1efe9;
+  --menu-inner-background:  #ddd;
+  --menu-list-item-margin: 0.8rem 1rem;
+  --text-color-1: #eee;
+  --text-color-2: #181c29;
+  --text-color-3: #090330;
+  --active-text-color-1: #eee;
+  --active-text-color-2: #000;
+  --button-background: #ddd;
+  --button-background-hover: #181c29;
+  --overlay-background: rgba(20,20,20,0.8);
+  --warning-background: rgba(50,50,50);
+  --purchase-background: rgba(30,30,50);
+  --buy-btn-background-1: #dd2211;
+  --buy-btn-background-2: #ee1010;
+  --price-color : #65dd67;
+  --price-color-2 : #54cc56;
+  --h4-color: #222;
+  --delete-color: #960f14
+}
+
+*{
+  background: var(--background-color);
+  margin:0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  min-height: 100vh;
+  padding: 0;
+  margin:0;
+  font-family: Vederna;
+  box-sizing: border-box;
+}
+
+.menu{ 
+  background: var(--menu-background);
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 85%;
+  transform: translateX(-100%);
+  position: absolute;
+  transition: all 1s;
+  z-index: 10;
+
+}
+.show-menu{
+  transform: translateX(0);
+}
